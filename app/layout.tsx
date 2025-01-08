@@ -9,9 +9,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Arif Saputra | Full Stack Software Engineer",
+  title: "Dennis Adiwinata Irwan Soeroso | Data Scientist, AI Engineer",
   description:
-    "Arif Saputra is a Full Stack Software Engineer and the President Director of Allwes.id, showcasing expertise in end-to-end software development and strategic leadership.",
+    "Dennis Adiwinata Irwan Soeroso is a Data Scientist, AI Engineer.",
 };
 
 export default function RootLayout({
