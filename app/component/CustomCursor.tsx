@@ -39,7 +39,7 @@ const CustomCursor = () => {
       className="-z-20 fixed transform -translate-x-[200px] -translate-y-[200px] pointer-events-none w-[600px] h-[600px] rounded-full transition-transform duration-150"
       style={{
         background:
-          "radial-gradient(circle, rgba(0, 136, 184, 0.05) 0%, rgba(0, 136, 184, 0.06) 5%, rgba(255, 255, 255, 0) 100%)",
+          "radial-gradient(circle, rgba(222, 51, 51, 0.05) 0%, rgba(222, 51, 51, 0.06) 5%, rgba(255, 255, 255, 0) 100%)",
       }}
     />
   );

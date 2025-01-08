@@ -14,9 +14,9 @@ export default function Home() {
         <main id="content" className="w-full lg:w-1/2 lg:py-24">
           <About />
 
-          <Experience />
+          {/* <Experience /> */}
 
-          <Project />
+          {/* <Project /> */}
 
           <Footer />
         </main>

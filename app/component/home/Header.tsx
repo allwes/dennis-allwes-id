@@ -14,7 +14,7 @@ const Header = () => {
         </h2>
         <p className="mt-4 max-w-xs leading-normal">{profile.about}</p>
 
-        <div className="my-5">
+        {/* <div className="my-5">
           <Link
             href={profile.file_resume}
             className="group flex items-baseline gap-2 w-max  rounded-lg fill-slate-800 hover:fill-primary hover:text-primary transition-all ease-in-out duration-150"
@@ -27,7 +27,7 @@ const Header = () => {
               </svg>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <ul
@@ -49,7 +49,7 @@ const Header = () => {
         ))}
       </ul>
 
-      <p className="hidden lg:block -z-10 absolute -bottom-20 left-0 text-[200px] text-black text-opacity-5 font-bold">
+      <p className="hidden lg:block -z-10 absolute -bottom-12 left-0 text-[140px] text-black text-opacity-5 font-bold">
         {profile.short_name}
       </p>
     </header>

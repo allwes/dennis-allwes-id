@@ -3,13 +3,13 @@ import Link from "next/link";
 export const profile = {
   name: (
     <Link href={"/"}>
-      Name<span className="text-primary">.</span>
+      Dennis Adiwinata Irwan Soeroso<span className="text-primary">.</span>
     </Link>
   ),
-  short_name: "",
-  role: "",
+  short_name: "Dennis",
+  role: "Data Scientist, AI Engineer",
   about:
-    "",
+    "I am interested in the research field of computer vision and data analytics especially in the topic of Optical Music Recognition.",
   file_resume: "/resume.pdf",
   socialMedia: [
     {
@@ -20,8 +20,8 @@ export const profile = {
         </svg>
       ),
       title: "Github",
-      decription: "username",
-      link: "https://github.com/userame",
+      decription: "DSC16",
+      link: "https://github.com/DCS16",
     },
     {
       id: 2,
@@ -35,8 +35,8 @@ export const profile = {
         </svg>
       ),
       title: "LinkedIn",
-      decription: "Name",
-      link: "https://www.linkedin.com/in/.../",
+      decription: "Dennis Soeroso",
+      link: "https://www.linkedin.com/in/dennis-soeroso/",
     },
     {
       id: 3,
@@ -46,8 +46,8 @@ export const profile = {
         </svg>
       ),
       title: "Instagram",
-      decription: "@username",
-      link: "https://www.instagram.com/username",
+      decription: "@dennis_adiwinata16",
+      link: "https://www.instagram.com/dennis_adiwinata16/",
     },
     {
       id: 4,
@@ -58,9 +58,9 @@ export const profile = {
         </svg>
       ),
       title: "GMail",
-      decription: "...@gmail.com",
-      link: "mailto:...@gmail.com",
+      decription: "d.adiwinata.i.sutekno@gmail.com",
+      link: "mailto:d.adiwinata.i.sutekno@gmail.com",
     },
   ],
-  photo: "/img/foto.jpeg",
+  photo: "/img/fotoDennis.png",
 };
